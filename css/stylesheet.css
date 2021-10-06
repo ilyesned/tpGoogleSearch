@@ -1,0 +1,109 @@
+html{
+    font-size: 62.5%;
+}
+
+header ul{
+    display: flex;
+    font-size: 1rem;
+    justify-content: right;
+}
+
+header ul li{
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    margin-right: 1rem;
+}
+
+header ul li img{
+    width: 1.5rem;
+    clip-path:ellipse(50% 50%);
+}
+
+body{
+    font-family: sans-serif;
+    font: 1.6rem;
+    margin: 0;
+    zoom: 150%;
+}
+
+h1,h2,h3,p,ul,ol,a,th,figure{
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-weight: 400;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+main{
+    width: 35rem;
+    display: block;
+    margin: 0 auto;
+}
+
+main img{
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+    display: block;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+
+main .ada{
+    grid-gap: -2rem;
+    margin:1.5rem auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: none;
+}
+main .ada input{
+
+    padding: 1rem;
+    background-color: rgba(242, 242, 242, 1);
+    border: none;
+    margin: 0 auto;
+    font-size: .8rem;
+    width: 50%;
+}
+
+
+
+main section input[type=submit]
+{
+    width: 50%;
+}
+
+/* main section input[type=search]
+{
+    width: 50%;
+} */
+
+main section input[type=text]{
+    width: 100%;
+    border: .1rem solid rgba(101, 105, 101, 0.26);
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+
+
+footer{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #3e3b5b;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    border-bottom: 0.1rem solid #000000;
+}
+
+footer p{
+    margin-left: 2rem;
+}
